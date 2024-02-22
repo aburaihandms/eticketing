@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header class="container mx-auto">
+    <header class=" container mx-auto">
         <!-- navbar -->
         <div class="navbar bg-base-100">
             <div class="navbar-start">
@@ -58,13 +58,14 @@
                             Yes, you can run unit tests and view the results directly within the app.
                             The integrated testing features allow for a streamlined .
                         </p>
-                        <button class="btn bg-[#1DD100] text-black border-none" href="#">Buy Tickets</button>
+                        <button class="btn bg-[#1DD100] text-black border-none scroll-smooth"><a href="#chosing">Buy
+                                Tickets</a></button>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <main class="">
+    <main >
         <section>
             <div class="mt-14 w-[1170px] mx-auto">
                 <h1 class="font-bold mb-8 text-3xl text-center">Best offers for you</h1>
@@ -95,59 +96,60 @@
                         <hr class="border-2 w-[.5px] h-[150px] border-dashed border-white">
                         <!-- </div> -->
                         <div class="raleway">
-                            <h1 class="font-bold text-2xl">Couple 20</h1>
+                            <h1 class="font-bold text-2xl">Couple20</h1>
                             <h6>Coupon Code</h6>
                         </div>
                     </div>
                 </div>
                 <div class="flex justify-center mt-8 items-center">
                     <button class="btn px-10 border-2 border-solid border-[#1DD100] bgColor">
-                        Button
+                        See All Offers
                     </button>
                 </div>
             </div>
-    
+
         </section>
 
         <!-- secend section-->
 
-        <section>
+        <section id="chosing">
             <div class="mt-14 rounded-t-3xl border-t-[#1DD100] border-2 p-32 bg-[#F7F8F8]">
-                <div class="w-[1170px] mx-auto ">
+                <div class="w-[1170px] mx-auto">
                     <!-- text-area -->
-                    <div class="text-center flex flex-col items-center justify-center gap-6">
+                    <div class="text-center flex flex-col items-center justify-center gap-5">
                         <h1 class="font-extrabold text-4xl">CL Travels</h1>
-                        <p class="w-[720px] text-[#03071299]">
-                            Yes, you can run unit tests and view the results directly within the app. The integrated testing
+                        <p class="w-[720px] text-[#03071299] mb-8">
+                            Yes, you can run unit tests and view the results directly within the app. The integrated
+                            testing
                             features
                             allow for a streamlined .
                         </p>
                     </div>
-    
-                    <div class="flex gap-2 justify-around items-center bg-white rounded-xl h-[400px] mx-auto">
+
+                    <div class="flex justify-around items-center rounded-xl bg-white p-5 mx-auto">
                         <!-- left -->
-    
-                        <div class="w-[750px]">
+
+                        <div class="w-[750px] ">
                             <div class="flex justify-between">
                                 <div class="flex gap-4">
                                     <img src="./images/bus-logo.png">
                                     <div>
                                         <h1 class="font-bold text-2xl">City Link Travels</h1>
-                                        <p>Coach-009-WEB ! AC_Business</p>
+                                        <p>Coach-009-WEB ! Economy</p>
                                     </div>
                                 </div>
                                 <!-- right -->
-    
+
                                 <div
                                     class="bg-[#1DD10026] flex w-[150px] h-[50px] p-2 justify-center items-center gap-x-2 rounded-md">
                                     <img src="./images/seat-green.png">
                                     <h6>
-                                        <span>40</span>
+                                        <span id="seat">40</span>
                                         Seats left
                                     </h6>
-    
+
                                 </div>
-    
+
                             </div>
                             <!-- left side bottom part -->
                             <div class="bg-[#F7F8F8] rounded-xl p-5 mt-5">
@@ -155,42 +157,127 @@
                                     <p>Route</p>
                                     <p>Dhaka - Sylhet</p>
                                 </div>
-                                <hr class="my-2 mx-auto border-dashed border-1">
+                                <hr class="my-4 mx-auto border-dashed border-1">
                                 <div class="flex justify-between">
                                     <p>Departure Time</p>
                                     <p>9:00 PM</p>
                                 </div>
-                                <hr class="my-2 mx-auto border-dashed border-1">
+                                <hr class="my-4 mx-auto border-dashed border-1">
                                 <div class="flex justify-between">
-                                <div class="bg-[#0307120D] font-normal h-12 w-52 flex items-center justify-center rounded-lg">
+                                    <div
+                                        class="bg-[#0307120D] font-normal h-12 w-52 flex items-center justify-center rounded-lg">
                                         <p>Boarding Point - Laxmipur</p>
                                     </div>
-                                <div class="bg-[#0307120D] font-normal h-12 w-52 flex items-center justify-center rounded-lg">
+                                    <div
+                                        class="bg-[#0307120D] font-normal h-12 w-52 flex items-center justify-center rounded-lg">
                                         <p>Dropping Point - Bogura</p>
                                     </div>
-                                <div class="bg-[#0307120D] font-normal h-12 w-52 flex items-center justify-center rounded-lg">
+                                    <div
+                                        class="bg-[#0307120D] font-normal h-12 w-52 flex items-center justify-center rounded-lg">
                                         <p>Est. Time - 11 Hour</p>
                                     </div>
                                 </div>
-                                
+
                             </div>
-    
+
                         </div>
                         <!-- right side -->
-                        <div class="h-36 border-dashed border-2 border-[#1DD100]"></div>
-                        <div class="flex flex-col justify-center items-center">
+                        <div class="h-36 border-dashed border-2 border-[#1DD100] "></div>
+                        <div class="flex flex-col justify-center items-center rounded-l-xl">
                             <img src="./images/fare.png">
-                            <h1 class="font-bold text-2xl">550 Taka</h1>
+                            <h1 class="font-bold text-2xl"><span id="seat-price">550</span> Taka</h1>
                             <h6>Per Seat</h6>
                         </div>
                     </div>
                 </div>
+                <!-- Tickets section -->
+                <div class="w-[1170px] mx-auto mt-8 p-6 bg-white flex justify-between rounded-xl">
+                    <!-- ticket select section -->
+                    <div class="w-[600px]">
+                        <h1>Select Your Seat</h1>
+                        <hr class="my-4 mx-auto border-dashed border-1">
+                        <div class="flex justify-between">
+                            <p class="flex gap-x-2"><img src="./images/seat-gray.png"> Available</p>
+                            <p class="flex gap-x-2"><img src="./images/seat-green-filled.png"> Selected</p>
+                        </div>
+                        <hr class="my-4 mx-auto border-dashed border-1">
+                        <!-- driver -->
+                        <div class="flex justify-end mb-8">
+                            <div class=" flex justify-center items-center w-28 h-12 bg-[#0307121A] rounded-xl">
+                                <img src="./images/stearing.svg">
+                            </div>
+                        </div>
+                        <!-- passenger -->
+                        <div class="flex justify-between">
+                            <!-- passenger 1st line -->
+                            <div class="flex gap-4 justify-center items-center">
+
+                                <div class="grid grid-cols-2 gap-4">
+                                    <button id="forb" class="btn chears">A1</button>
+                                    <button id="forb" class="btn chears">A2</button>
+                                    <button id="forb" class="btn chears">B1</button>
+                                    <button id="forb" class="btn chears">B2</button>
+
+                                </div>
+                            </div>
+                            <!-- passenger 1st line -->
+                            <div class="grid grid-cols-2 gap-4">
+                                <button id="forb" class="btn chears">A3</button>
+                                <button id="forb" class="btn chears">A4</button>
+                                <button id="forb" class="btn chears">B3</button>
+                                <button id="forb" class="btn chears">B4</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- form section -->
+                    <div class="w-[400px]">
+                        <h1>Select Your Seat</h1>
+                        <hr class="my-4 mx-auto border-dashed border-1">
+                        <div class="bg-[#F7F8F8] p-4 rounded-xl">
+                            <div class="flex justify-between">
+                                <h2>Seat <span id="selected-chear"
+                                        class="bg-[#1DD100] text-white rounded-xl px-2">0</span></h2>
+                                <h2>Class</h2>
+                                <h2>Price</h2>
+                            </div>
+                            <hr class="my-2 mx-auto border-dashed border-1">
+                            <div id="selected-seat" class="flex justify-between">
+
+                                <!-- Empty Div -->
+                            </div>
+                            <hr class="my-2 mx-auto border-dashed border-1">
+                            <div class="flex justify-between mb-3">
+                                <h1>Total Price</h1>
+                                <h1>BDT <span id="total-price">000</span></h1>
+                            </div>
+                            <div class="bg-white flex justify-between p-2 rounded-xl">
+                                <input id="coupon-use" class="border-none" type="text" placeholder="Have any coupon?">
+                                <button onclick="updateGrandTotal('coupon')"
+                                    class="bg-[#1DD100] text-white rounded-xl w-20 h-9">Apply</button>
+                            </div>
+                            <div class="flex justify-between mb-3">
+                                <h1>Grand Total</h1>
+                                <h1>BDT <span id="grand-total">000</span></h1>
+                            </div>
+                            <button class="w-full bg-[#1DD100] rounded-xl text-white p-2"><a href="./next.html">Next</a></button>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </section>
+
+
     </main>
     <footer>
 
     </footer>
+
+
+    
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

@@ -13,4 +13,9 @@
 
 .bgColor{
     color: #1DD100;
+    
+}
+.chears.selected {
+    background-color: #1DD100; 
+    color: #ffffff; 
 }
